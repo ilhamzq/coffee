@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = 'http://192.168.1.66:8080/kopimalang.com';
+$config['base_url'] = 'http://www.kopimalang.com/';
 
 /*
 |--------------------------------------------------------------------------
