@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = 'http://distinctheron-c1ef.azurewebsites.net/';
+$config['base_url'] = 'http://brightcormorant-e9a5.azurewebsites.net/';
 
 /*
 |--------------------------------------------------------------------------

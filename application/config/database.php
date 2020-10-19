@@ -5,10 +5,10 @@
 	$query_builder = TRUE;
 	$db['default'] = array(
 		'dsn'	=> '',
-		'hostname' => 'localhost',
-		'username' => '',
-		'password' => '',
-		'database' => '',
+		'hostname' => 'sql148.main-hosting.eu',
+		'username' => 'u802801766_admcoffee',
+		'password' => 'U802801766coffee',
+		'database' => 'u802801766_coffee',
 		'dbdriver' => 'mysqli',
 		'dbprefix' => '',
 		'pconnect' => FALSE,
