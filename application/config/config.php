@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = 'http://www.kopimalang.com/';
+$config['base_url'] = 'http://azure.kopimalang.com/';
 
 /*
 |--------------------------------------------------------------------------
