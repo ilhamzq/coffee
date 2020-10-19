@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="asset/font/css/fontawesome.min.css">
 	<link rel="stylesheet" href="asset/font/css/solid.min.css">
 	<link rel="stylesheet" href="asset/css/ol.css">
+	<link rel="stylesheet" href="asset/css/loader.css">
 	<script src="asset/js/menu.js"></script>
 	<script src="asset/js/bootstrap.js"></script>
 	<script src="asset/js/jquery-3.4.1.min.js"></script>
@@ -94,9 +95,20 @@
 			text-align: center;
 			height: 2em;
 		}
+		.loader-wrapper{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			z-index: 100000;
+			background: #1d2126;
+		}	
 	</style>
 </head>
 <body onLoad="init()">
+	<div class="loader-wrapper" id="div-loader">
+        <div id="loader"></div>
+    </div>
+
 	<div class="container-fluid header">
 		<div class="row">
 			<div class="col-sm-1">
@@ -144,5 +156,25 @@
 			<label class="lblfootmob">System Develop By Auto Virtual Media<br />Copyright &copy; 2019</label>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			pageload();
+
+			setInterval(function(){
+				stopload();
+			}, 1000);
+
+			function pageload() {
+				loaders = document.getElementsByClassName('loader-wrapper');
+				loaders[0].style.display = "inherit";
+				$('#loader').css("visibility", "visible");
+			}
+			function stopload() {
+				$('#loader').css("visibility", "hidden");
+				$('#div-loader').fadeOut(500);
+			}
+		})		
+	</script>
 </body>
 </html>
