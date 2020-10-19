@@ -1,0 +1,473 @@
+
+@media (max-width: 576px) {
+	h4 {
+	     padding: 0.25em 0% !important;
+	}
+	h5, h1, label, input[type="text"], input[type="password"], input[type="file"], select, button {
+	     width: 90%;
+	     margin-left: 5%;
+	}
+	.container-fluid.header .row .col-sm-1 {
+		width: 25%;
+		padding: 0.75em 1em;
+	}
+	.container-fluid.header .row .col-sm-11 {
+		width: 75%;
+		padding: 0.75em 1em;
+	}
+	ul.menu {
+		position: fixed;
+		top: 25%;
+		left: 0;
+		right: 0;
+		height: 8em;
+		padding: 1em 0;
+		visibility: hidden;
+	}
+	ul.menu li {
+		height: 2em;
+		width: 100%;
+	}
+	ul.menu li.img {
+		visibility: hidden;
+	}
+	ul.menu li a.active {
+		border-bottom: 0px;
+	}
+	ul.menu li a:hover {
+		border-bottom: 0px;
+	}
+	select.selarea {
+		margin-bottom: 0.5em;	
+	}
+	.container-fluid.fillmap {
+		top: 3.5em;
+		height: 84%;
+	}
+	.container-fluid.fill {
+		top: 3.5em;
+	}
+	.container-fluid.fill.login {
+		padding: 15%;
+	}	
+	.container-fluid.fill.full {
+		padding: 10%;
+	}	
+	.col-sm-12.datamap {
+		width: 90%;
+		margin-left: 5%;
+		padding: 1.5em 1em !important;
+	}
+	.col-sm-12.datamap .col-sm-10 label {
+		margin-left: 0;
+	}	
+	.col-sm-5.field.option {
+		height: 6em;
+	}	
+	.col-sm-12.field, .col-sm-8.field, .col-sm-6.field, .col-sm-4.field, .col-sm-3.field, .col-sm-2.field {
+		padding: 1em 0.5em;
+	}
+	.container-fluid.fillmap .row .col-sm-12 {
+		padding-bottom: 5% !important;
+	}
+	.container-fluid.fillmap .row .col-sm-3 {
+		padding-bottom: 1%;
+	}
+	.col-sm-9.float-left.text-right.lblfooter-big {
+		visibility: hidden;
+		height: 0;
+	}
+	.container-fluid.fillmap .row .col-sm-12.lblfooter-sm {
+		visibility: visible;
+		height: 1em;
+	}
+	.col-sm-5.field.option {
+		height: 6em;
+	}
+	table {
+		width: 100%;
+		margin: 0;
+	}	
+	table th.flex, table td.flex {
+		display: none;
+	}
+    table td a {
+     	padding: 0.25em 0.5em;
+    }
+    .col-sm-2.field {
+		width: 50%;
+	}
+	.container-fluid.fill.list h2 {
+		padding: 0 5%;
+		font-size: 1.6em;
+	}
+    .col-sm-6.field {
+		padding: 1em 0;
+		width: 60%;
+	}
+    .col-sm-8.field label {
+		padding-left: 0;
+	}
+	.container-fluid.fill.list .row.col-sm-12 {
+		padding: 0 5%;
+	}
+	h4.produk {
+	     padding: 0.25em 5% !important;
+	}
+	.col-sm-12.field.add_data  {
+		padding-left: 5%;
+	}
+	.col-sm-3.product {
+		max-width: 50%;
+	}
+	.col-sm-4.product {
+		max-width: 50%;
+		padding: 0.25em;
+	}
+	.col-sm-4.product img {
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	.col-sm-4.product p {
+		width: 100%;
+		float: left;
+		padding-top: 1em;
+	}	
+	.col-sm-4.product p label {
+		padding: 0 2.5%;
+	}	
+	.col-sm-3.order input {
+		min-width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 1em;
+	}							
+	.col-sm-3.order label.ordsts {
+		min-width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 1em;
+	}
+	.col-sm-3.order button {
+		max-width: 45%;
+		margin: 0 2.5%;
+	}
+	.col-sm-3.order button.btnordpro {
+		min-width: 95%;
+		margin: 0 2.5%;
+	}
+	.col-sm-3.order {
+		width: 100%;
+	}
+	.col-sm-3.order.image {
+		width: 40%;
+	}
+	.col-sm-3.order.image img {
+		width: 100%;
+	}
+	.col-sm-6.order {
+		max-width: 60%;
+		padding: 0 0.5em;
+	}
+	.col-sm-6.order .col-sm-1 {
+		max-width: 10%;
+	}
+	.col-sm-6.order .col-sm-2 {
+		max-width: 30%;
+	}
+	.col-sm-6.order .col-sm-9 {
+		max-width: 60%;
+	}
+	.col-sm-6.order label {
+		font-size: 0.8em;
+	}
+	.col-sm-6.order label.name {
+		font-size: 1em;
+		min-height: 3em;
+	}
+	.col-sm-6.order label.stts {
+		min-height: 4.5em;
+	}
+	.col-sm-12.shadow {
+		padding: 1em 1.5em;
+	}
+	.col-sm-12.shadow .col-sm-2.field {
+		padding-left: 0;
+	}					
+	.col-sm-12.shadow .col-sm-5.field.option {
+		height: 2em;
+	}
+	.col-sm-12.shadow .col-sm-5.field.option .col-sm-6 input {
+		width: 10% !important;
+	}					
+	.col-sm-12.shadow .col-sm-12.field input, .col-sm-12.shadow .col-sm-12.field select, .col-sm-12.shadow .col-sm-12.field label {
+		min-width: 100%;
+		margin-left: 0;
+	}				
+	.col-sm-12.shadow h4 {
+		padding-left: 0.5em !important;
+	}
+	.row.col-sm-12.data {
+		max-height: auto;
+	}
+	.row.col-sm-12.data .col-sm-6.field, .row.col-sm-12.data .col-sm-1.field, .row.col-sm-12.data .col-sm-8.field {
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	.col-sm-12.select {
+		height: 7em !important;
+	}
+	.lblfootdes {
+		visibility: hidden;
+		padding: 0;
+		margin: 0;
+	}
+	.lblfootmob {
+		margin: 0;
+		margin-bottom: 2em;
+		padding: 0;
+		text-align: center;
+		font-size: 0.8em;
+		width: 100%;
+	}
+	table.pesananadm tr td {
+		padding: 0 !important;
+		border: 1px red solid;
+	}
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+	h4 {
+	     padding: 0.25em 2% !important;
+	}
+	label, input[type="text"], input[type="password"], input[type="file"], select, button {
+	     width: 100% !important;
+	     margin-left: 0% !important;
+	}
+	.container-fluid {
+		padding: 1.5em 10%;
+	}
+	.menu-wall {
+		visibility: hidden;
+	}
+	.container-fluid.header {
+		height: 5em;
+	}
+	ul.menu {
+		position: fixed;		
+		top: 1.5em;
+		right: 10%;
+		height: 2em;
+		width: auto;
+		text-align: right;
+		padding: 0;
+	}
+	ul.menu li {
+		height: 100%;
+		width: auto;		
+	}
+	ul.menu li.img {
+		visibility: visible;
+	}
+	ul.menu li:hover, ul.menu li.active {
+		border-bottom: 1px #eeeeee solid;
+	}
+	select.selarea {
+		width: 47.5% !important;
+		margin-right: 2.5%;
+	}
+	.container-fluid.header .col-sm-11 i {
+		visibility: hidden;
+	}	
+	.container-fluid.header .col-sm-11 label {
+		visibility: hidden;
+		padding: 0 !important;
+		height: 0 !important;
+	}	
+	.container-fluid.header .col-sm-11 img.admin {
+		visibility: hidden;
+		padding: 0 !important;
+		height: 0 !important;
+	}
+	.container-fluid.fillmap {
+		top: 5em;
+		height: 86%;
+	}
+	.container-fluid.fill {
+		top: 5em;
+	}
+	.container-fluid.fill.login {
+		padding: 8% 38%;
+		padding-bottom: 0;
+		padding-top: 5%;
+	}
+	.col-sm-12.shadow form {
+		padding: 3%;
+	}
+	.container-fluid.fill.full {
+		padding: 8% 10%;
+		padding-bottom: 0;
+		padding-top: 6%;
+	}
+	.col-sm-5.field.option {
+		height: 3em;
+	}
+	.col-sm-12.field, .col-sm-8.field, .col-sm-6.field, .col-sm-4.field, .col-sm-3.field, .col-sm-2.field {
+		padding: 1em;
+	}
+	
+	.container-fluid.fill.list .row .col-sm-12 .col-sm-6.field {
+		max-width: 20%;
+	}
+	.container-fluid.fill.list .row .col-sm-12 .col-sm-8.field {
+		max-width: 40%;
+		padding: 1em 0;
+	}
+	.container-fluid.fill.list .row .col-sm-12 .col-sm-1.field {
+		max-width: 2%;
+	}
+	
+	.col-sm-12.error label {
+		max-width: 15%;
+	}
+	.col-sm-9 .float-left .text-right .lblfooter-big {
+		visibility: visible;
+	}
+	.container-fluid.fillmap .row .col-sm-12.clear label {
+		visibility: hidden;
+	}
+	.container-fluid.fillmap .row .col-sm-12.lblfooter-sm {
+		visibility: hidden;
+		height: 0;
+	}
+	table {
+		width: 96%;
+		margin: 0 2%;
+	}
+	.container-fluid.fill.list h2 {
+		padding: 0;
+	}
+	.container-fluid.fill.list form {
+		padding: 0 3%;
+	}
+	h4.produk {
+	     padding: 0.25em 0.5em !important;
+	}
+	.col-sm-12.shadow .col-sm-12.field.product, .col-sm-12.shadow .col-sm-12.field.order {
+		width: 100%;
+		padding: 0 1em;
+	}
+	.col-sm-4.product {
+		min-width: 33%;
+		height: 9.5em;
+		padding: 0 0.5em;
+		margin-bottom: 1.5em;
+	}
+	.col-sm-4.product img {
+		width: 45%;
+		height: 100%;
+		float: left;
+	}
+	.col-sm-4.product p {
+		width: 55%;
+	}
+	.col-sm-4.product p label {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.col-sm-3.order input {
+		max-width: 90%;
+		margin: 0.25em 0;
+		margin-left: 5%;
+	}
+	.col-sm-3.order label.ordsts {
+		max-width: 90%;
+		margin: 0.25em 0;
+		margin-left: 5%;
+		float: left;
+	}
+	.col-sm-3.order button {
+		max-width: 90%;
+		margin: 0.25em 0;
+		margin-left: 5%;
+	}
+	.col-sm-3.order {
+		width: 30%;
+	}						
+	.col-sm-3.order.image {
+		width: 18%;
+	}
+	.col-sm-3.order.image img {
+		width: 90%;
+	}
+	.col-sm-6.order {
+		min-width: 55%;
+		height: 100%;
+		border: 1px blue solid;
+	}
+	.col-sm-12.shadow {
+		padding: 0 1.5em;
+	}
+	.col-sm-12.shadow .col-sm-12.field {
+		width: 50%;
+		height: 4em;
+	}
+	.col-sm-12.shadow .col-sm-5.field.option {
+		height: 4em;
+		width: 30%;
+	}
+	.col-sm-12.shadow .col-sm-5.field.option .col-sm-6 input {
+		width: 20% !important;
+	}
+	.col-sm-12.shadow .col-sm-2.field {
+		padding: 1em 0;
+	}					
+	.col-sm-12.shadow .col-sm-6.field {
+		padding-bottom: 3em;
+		padding-left: 0;
+	}
+	.col-sm-12.shadow h4 {
+		padding-left: 0.75em !important;
+	}
+	.row.col-sm-12.data {
+		height: 4em;
+	}
+	.container-fluid.fill.login .col-sm-12.shadow {
+		padding: 1.5em 1em;
+		padding-bottom: 0 !important;
+	}
+	.col-sm-2.field.submit button {
+		width: 80% !important;
+	}
+	.col-sm-12.field.add_data button {
+		margin-left: 1.5em !important;
+		min-width: 25%;
+	}
+	.col-sm-12.select {
+		height: 3em !important;
+	}
+	.lblfootdes {
+		width: 50% !important;
+		float: right;
+		text-align: right;
+		font-size: 0.8em;
+		padding: 1em 0;
+		visibility: visible;
+	}
+	.lblfootmob {
+		padding: 0 !important;
+		height: 0 !important;
+		margin: 0 !important;
+		visibility: hidden;
+		font-size: 1px;
+	}
+	table.pesananadm tr td {
+		padding: 0.25em 0;
+	}
+}
